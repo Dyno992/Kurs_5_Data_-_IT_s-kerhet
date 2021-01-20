@@ -1,6 +1,7 @@
 package Labbar.Lab1;
 
 
+import java.io.File;
 import java.util.Scanner;
 
 public class Main {
@@ -14,6 +15,8 @@ public class Main {
         System.out.println("\n" + "Please name the files for your KeyPair: ");
 
         Labbar.Lab1.GenerateKeys.generateKeys(sc.nextLine(), bitLength);
+
+
 
 
 
